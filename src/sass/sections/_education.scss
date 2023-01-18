@@ -42,22 +42,29 @@ h1{
   padding:0;
   margin:0;
 }
-.timeline1 ul li{
+.timeline1 ul li:nth-child(odd){
+  float:left;
+  text-align:left;
+  clear:both;
+
   list-style:none;
   position:relative;
   width:50%;
-  padding:20px 40px;
+  padding:20px 40px 20px 80px;
   box-sizing:border-box;
-}
-.timeline1 ul li:nth-child(odd){
-  float:left;
-  text-align:right;
-  clear:both;
+
 }
 .timeline1 ul li:nth-child(even){
   float:right;
   text-align:left;
   clear:both;
+
+  list-style:none;
+  position:relative;
+  width:50%;
+  padding:20px 40px;
+  box-sizing:border-box;
+
 }
 .content{
   padding-bottom:20px;

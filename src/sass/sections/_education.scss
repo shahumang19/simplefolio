@@ -44,13 +44,14 @@ h1{
 }
 .timeline1 ul li:nth-child(odd){
   float:left;
-  text-align:left;
+  text-align:right;
   clear:both;
 
   list-style:none;
   position:relative;
   width:50%;
-  padding:20px 40px 20px 80px;
+  // padding:20px 40px 20px 80px;
+  padding:20px 40px;
   box-sizing:border-box;
 
 }
